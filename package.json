@@ -5,10 +5,15 @@
   "repository": "git@github.com:MavisWRK/to-do-api.git",
   "author": "william faisca <whitekine2000@gmail.com>",
   "license": "MIT",
+  "type": "module",
   "devDependencies": {
+    "@types/node": "^25.0.8",
     "typescript": "^5.9.3"
   },
   "scripts": {
     "dev": "node src/app.ts"
+  },
+  "dependencies": {
+    "fastify": "^5.7.0"
   }
 }
