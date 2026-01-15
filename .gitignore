@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+/jspm_packages/
+/.npm
+
+# Optional npm cache files
+.npm
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of \'npm pack\'
+*.tgz
+
+# Managed dependencies
+pnpm-lock.yaml
+yarn.lock
+# lock files #
+package-lock.json
+npm-shrinkwrap.json
+
+# TypeScript v2.0+
+*.tsbuildinfo
+
+# Optional IDE cache for VS Code
+.vscode/extensions.json
+.vscode/*.log
+.vscode/.react/
+
+# Optional Vim temporary files
+*.swp
+*.swo
+
+# Optional Test coverage output
+/.nyc_output
+/coverage
+/.cache
+/npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.tap/

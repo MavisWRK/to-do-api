@@ -1,0 +1,14 @@
+{
+  "name": "to-do-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:MavisWRK/to-do-api.git",
+  "author": "william faisca <whitekine2000@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  },
+  "scripts": {
+    "dev": "node src/app.ts"
+  }
+}
