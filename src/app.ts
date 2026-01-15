@@ -1,8 +1,11 @@
 import Fastify from "fastify";
+import cors from "@fastify/cors";
 
 const app = Fastify({
   logger: true,
 });
+
+app.register(cors);
 
 interface INote {
   id: number;
@@ -42,7 +45,7 @@ app.post("/notes", async (request, reply) => {
 });
 
 try {
-  await app.listen({ port: 3000 });
+  await app.listen({ port: 3001 });
 } catch (err) {
   app.log.error(err);
   process.exit(1);
